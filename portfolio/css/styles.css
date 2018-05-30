@@ -1,0 +1,38 @@
+.centered {
+    text-align: center
+}
+#textred {
+    color: red
+}
+#textblue {
+    color: blue
+}
+#textgreen {
+    color: green
+}
+#textbig {
+    font-size: 20px
+}
+#textsmall {
+    font-size: 5px
+}
+#textbold {
+    font-weight: bold
+}
+#textfont {
+    font-family: Arial, Helvetica, sans-serif
+}
+#textmultiple {
+    color: orange;
+    font-weight: bold;
+    font-size: 20px
+}
+.styledFont {
+    font-size: 15px;
+    color: purple;
+    font-style: italic
+}
+#styledImage {
+    border-image: 10px, red;
+    border-style: groove
+}

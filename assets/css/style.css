@@ -1,0 +1,214 @@
+header {
+    border-bottom: 1px #cccccc solid;
+    height:60px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+    background-image: url('../images/background.jpg');
+    background-repeat: repeat;
+
+}
+strong {
+    font-weight: bold;
+}
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    left: 150px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.links {
+    width:25%;
+    float: right;
+    position: relative;
+    right: 100px;
+    text-align: center;
+    height: 60px;
+    padding:20px;
+}
+.link {
+    padding:5px;
+}
+.link:link {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+    text-decoration: none;
+}
+.link:visited {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+    text-decoration: none;    
+}
+.link:hover {
+    color: black;
+}
+.mainTextBody {
+    position:relative;
+    padding: 20px;
+    overflow: hidden;
+    border: #dddddd solid 1px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: #ffffff;
+}
+.mainText {
+    margin: 10px;
+}
+.mainTextHeader {
+    
+    border-bottom: 2px solid #dddddd;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:15px;
+    padding-bottom:20px;
+}
+.bioPic {
+    height: 250px;
+    width: 180px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.bio {
+    line-height: 1.5;
+
+}
+.portfolioLink {
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+    float:left;
+}
+.portfolioLink:hover {
+    height:175px;
+    width:175px;
+}
+.contactForm {
+   padding: 20px;
+   line-height: 1.0; 
+}
+input, textarea {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border: 1px #777777 solid;
+    padding: 4px;
+    margin-top: 4px;
+    width: 100%;
+}
+.submitInput {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #666666;
+    width: 100%;
+    padding-top: 30px;
+    color: gainsboro;
+    text-align: center;
+    border-top: 6px solid #4aaaa5;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 980px) {
+    .name {
+        width: 20%;
+        left: 40px;
+    }
+    .links {
+        width: 30%;
+        right: 40px;
+    }
+    .mainTextBody {
+        width: 55%;
+        height: 20%;
+        margin-bottom: 80px;
+        margin-right: 150px;
+        margin-left: 40px; 
+        font-size:12px;
+    }
+    .bioPic {
+        height: 150px;
+        width: 120px;
+    }
+    .portfolioLink {
+        height: 120px;
+        width: 120 px;
+        margin: 20px;
+        float:left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .name {
+        width: 20%;
+        left: 15px;
+    }
+    .links {
+        width: 35%;
+        right: 0px;
+    }
+    .mainTextBody {
+        width: 90%;
+        height: 50%;
+        margin-bottom: 80px;
+        margin-right: 15px;
+        margin-left: 15px; 
+        font-size:14px;
+    }
+    .bioPic {
+        height: 200px;
+        width: 150px;
+    }
+    .portfolioLink {
+        height: 120px;
+        width: 120 px;
+        margin: 20px;
+        float:left;
+    }
+
+}
+@media screen and (max-width: 640px) {
+    header {
+            position: static;
+            overflow: hidden;
+            height: auto;
+    }
+    .name {
+            width: 100%;
+            left: 0px;
+            
+    }
+    .links {
+            clear: both;
+            width: 100%;
+            float: left;
+            text-align: center;
+            padding-bottom: 0px;
+            position: relative;
+            right: 0px;
+            text-align: center;
+            height: auto;
+            padding:20px;
+        
+    }
+}
