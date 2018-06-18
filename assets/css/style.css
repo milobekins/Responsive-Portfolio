@@ -88,14 +88,15 @@ strong {
 
 }
 .portfolioLink {
-    height: 150px;
-    width: 150px;
-    margin: 40px;
-    float:left;
+    text-decoration: none;
+    color: #777777;
+    line-height: 2;
+}
+.portfolioLink:visited {
+    color: #777777;
 }
 .portfolioLink:hover {
-    height:175px;
-    width:175px;
+    color: black;
 }
 .contactForm {
    padding: 20px;
@@ -150,12 +151,7 @@ footer {
         height: 150px;
         width: 120px;
     }
-    .portfolioLink {
-        height: 120px;
-        width: 120 px;
-        margin: 20px;
-        float:left;
-    }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -178,12 +174,6 @@ footer {
     .bioPic {
         height: 200px;
         width: 150px;
-    }
-    .portfolioLink {
-        height: 120px;
-        width: 120 px;
-        margin: 20px;
-        float:left;
     }
 
 }
